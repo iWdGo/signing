@@ -1,5 +1,5 @@
 # Using main requires flex. gcloud app deploy might incur costs.
-# flex does not provide instance number value as std does.
+# When started with dev_appserver.py, flex does not provide instance number.
 runtime: go
 env: flex
 
